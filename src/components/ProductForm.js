@@ -5,10 +5,10 @@ import Modal from 'react-modal';
 Modal.setAppElement('#root');
 
 const stateDescriptions = {
-  bad: "Forte usure, déchirure visible, affaissement marqué, éléments cassés. 0 %. 'Désolé, votre produit ne rentre pas dans les critères de reprise.'",
-  medium: "Usure visible, aucune déchirure, affaissement léger, aucune casse, tâche partielle, canapé fonctionnel. Prix de reprise estimé : 20% = 400 euros",
-  good: "Légère usure, aucune déchirure, aucun affaissement, aucune casse, aucune tâche, canapé fonctionnel. Prix de reprise estimé : 40% = 800 euros",
-  excellent: "Comme neuf, aucune usure visible, aucune déchirure, aucun affaissement, aucune casse, aucune tâche, canapé fonctionnel. Prix de reprise estimé : 60% = 1200 euros"
+  bad: "Forte usure, déchirure visible, affaissement marqué, éléments cassés.",
+  medium: "Usure visible, aucune déchirure, affaissement léger, aucune casse, tâche partielle, canapé fonctionnel.",
+  good: "Légère usure, aucune déchirure, aucun affaissement, aucune casse, aucune tâche, canapé fonctionnel.",
+  excellent: "Comme neuf, aucune usure visible, aucune déchirure, aucun affaissement, aucune casse, aucune tâche, canapé fonctionnel."
 };
 
 const getBuybackPrice = (state) => {
